@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #edd0e5;
+    text-align: center;
+    
+}
+
+header {
+    text-align: center;
+    background-color: #f0768b;
+    color: white;
+    padding: 10px 0;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+#quiz-section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+
+#audio-section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+#game-section{
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#sort-section  {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+
+button {
+    padding: 10px 15px;
+    background-color: #ffc0cb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffc0cb;
+}
+
+/* Убедитесь, что все изображения имеют одинаковые размеры */
+img {
+    width: 150px; /* Ширина изображения */
+    height: 150px; /* Высота изображения */
+    object-fit: cover; /* Сохраняет пропорции изображения и обрезает лишнее */
+    border-radius: 40px; /* Закругленные углы (по желанию) */
+}
+
+
+/* перенесли из index*/
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.image-container img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+.image-container img:hover {
+    border-color: #f25e70;
+}
+.options {
+    margin: 20px 0;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+}
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgb(119, 55, 221);
+}

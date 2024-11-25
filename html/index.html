@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Kids English Learning Site</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hi!! Cute baby</h1>
+        <h2>ты попал на сайт-тренажер для изучения английского языка!</h2>
+        <p>Давай вместе улучшим твои навыки в изучении английского языка в увлекательной и интерактивной форме</p>
+    </header>
+
+    <img src="flexi/lexi2.png" width="300" height="300" style="z-index:200;"/>
+
+    <main>
+        <section id="quiz-section">
+            <h2>пройдем мини-викторину</h2>
+            <h3>читай вопросик и выбирай ответ на английском</h3>
+            <div id="quiz-container"></div>
+            <button id="next-button" onclick="nextQuestion()">следующий вопросик</button>
+        </section>
+
+
+        <section id="audio-section">
+            <h2>Послушай и повтори</h2>
+            <button onclick="playAudio('apple')">Apple</button>
+            <button onclick="playAudio('banana')">Banana</button>
+            <button onclick="playAudio('orange')">Orange</button>
+            <div id="audio-container"></div>
+        </section>
+
+        <section id="game-section">
+            <h2>игра на соотнесение слов</h2>
+            <button onclick="startGame()">Start Game</button>
+            <div id="game-container"></div>
+        </section>
+
+        <section id="sort-section">
+            <h2>Соотнеси картинку с названием</h2>
+            <button onclick="startSort()">Start Sort</button>
+            <div id="sort-container"></div>
+            
+        </section>
+</main>
+
+
+
+    
+   
+
+    <script src="../script.js"></script>
+</body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Соотнеси картинку с её названием</title>
+   
+</head>
+<body>
+
+<div class="image-container" id="images"></div>
+<div class="options" id="options"></div>
+<div id="result"></div>
+
+
+
+<footer>
+    <p>&copy; 2024 Kids English Learning Site</p>
+</footer>
+
+</body>
+
+</html>
